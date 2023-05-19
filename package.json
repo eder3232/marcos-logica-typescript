@@ -1,0 +1,23 @@
+{
+  "name": "porticos-2d-logica",
+  "version": "1.0.0",
+  "description": "Logica para resolver marcos 2d con el método matricial de rigideces en  marcos en typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eder3232/marcos-logica-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eder3232/marcos-logica-typescript/issues"
+  },
+  "homepage": "https://github.com/eder3232/marcos-logica-typescript#readme",
+  "dependencies": {
+    "mathjs": "^11.8.0"
+  }
+}

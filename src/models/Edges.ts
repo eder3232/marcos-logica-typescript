@@ -21,7 +21,7 @@ interface IEdgeInput {
   fixedEndMoments: IFixedEndMoments;
 }
 
-interface IEdge {
+export interface IEdge {
   name: string;
   inertia: number;
   elasticity: number;
@@ -36,11 +36,11 @@ interface IEdge {
   fixedEndMoments: IFixedEndMoments;
 }
 
-interface IEdgesData {
+export interface IEdgesData {
   [key: string]: IEdge;
 }
 
-interface IEdgesOutput {
+export interface IEdgesOutput {
   edges: IEdgesData;
   vertices: IVerticesReturn;
 }
